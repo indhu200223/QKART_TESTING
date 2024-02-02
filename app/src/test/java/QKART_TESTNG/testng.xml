@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test case suite e-commerce application"> 
+    <test name="Test execution on chrome browser">
+        <!-- TestCase01 -->
+        <parameter name="username" value="testUser" />
+        <parameter name="password" value="abc@123" />
+
+<!-- TestCase05 -->
+        <parameter name="YONEX" value="YONEX Smash Badminton Racquet" />
+        <parameter name="Tan" value="Tan Leatherette Weekender Duffle" />
+        <parameter name="Address" value="Addr line 1 addr Line 2 addr line 3" />
+
+<!-- TestCase06 -->
+        <parameter name="Xtend" value="Xtend Smart Watch" />
+        <parameter name="Yarine" value="Yarine Floor Lamp" />
+
+<!-- TestCase07 -->
+        <parameter name="Stylecon" value="Stylecon 9 Seater RHS Sofa Set" />
+        <parameter name="quantity" value="10" />
+        <parameter name="Address_1" value="Addr line 1 addr Line 2 addr line 3" />
+
+        <packages>
+            <package name="QKART_TESTNG"></package>
+        </packages>
+
+    </test>
+</suite>
+
